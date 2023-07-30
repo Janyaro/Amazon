@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #search-bar{
+            margin: 5px;
+            width: 30vw;
+    height: 5vh;
+    border-radius: 6px;
+    background-color: rgb(143, 187, 208);
+        }
+        h1{
+            position: relative;
+            text-align: center;
+            top: 10px;
+
+        }
+        .bar{
+            position: absolute;
+            top: 50vh;
+            left: 35vw;
+        }
+        #btn{
+            width: 66px;
+            height: 5vh;
+            border-radius: 8px;
+            background-color: cadetblue;
+        }
+        body{
+            background-image: url("/Javascript/Weather.jpg");
+            background-size: cover;
+        }
+    #btn:hover{
+        
+        background-color: darkcyan;
+    }
+    </style>
+<script>
+let a = ()=>{
+    let text ;
+text = document.getElementById('search-bar').value;
+
+
+let api = fetch(`https://goweather.herokuapp.com/weather/${text}`)
+api.then((value)=>{
+    return value.json()
+}).then((value)=>{
+    console.log(value)
+})
+
+}
+
+let ac= document.getElementById("btn");
+ac.addEventListener("click" , ()=>{
+    alert("hello world")
+})
+ 
+  showmassage =()=>{
+    alert("fronted is ready")
+  }
+</script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Weather App </h1>
+        <div class="bar">
+            <input type="text" id = "search-bar" placeholder="Enter City Name ">
+            <input type="button" value="Search" id = "btn" onclick="showmassage">
+        </div>
+    </div>
+    <div class="detail">
+
+    </div>
+</body>
+</html>

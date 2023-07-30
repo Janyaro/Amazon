@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+/* color: aliceblue; */
+}
+.flix{
+    display: flex;
+}
+.nav-bar{
+    height: 60px ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+.nav-logo{
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-loc{
+    display: flex;
+    color: aliceblue;
+
+    
+}
+.navaddress{
+    color: aliceblue;
+
+}
+.para-fir{
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.7rem;
+}
+/* second logo  */
+.nav-search{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 38px;
+    border-radius: 4px ;
+}
+.search-select{
+    width: 51px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+     width: 100%;
+     font-size: 15px;
+     border: none;
+
+
+}
+
+.search-logo{
+    width: 45px;
+  display: flex;
+  border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 180, 16);
+}
+/* box 4  */
+/* .nav-signin{
+    width: 40px;
+} */
+span{
+    font-size: 0.7rem;
+}
+/* last nav box  */
+.cart{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+}
+.pannel{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #222828;
+    color: aliceblue;
+    font-size:medium;
+}
+.ops{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+.pannel-all{
+    color: aliceblue;
+    padding-left: 8px;
+}
+/* Hero Section  */
+.herosection{
+background-image: url("/Html/HeroSectionimage.jpg");
+background-size: cover;
+height: 600px;
+
+}
+/* Cards  */
+.cards{
+    padding: 19% 0px 2% 0%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .electronics{
+    height: 40px;
+    width: 360px;
+} */
+.handing{
+    font-size: 4vh;
+    font-weight: bolder;
+  
+    padding: 11px 35px;
+    
+}
+.seemore{
+    font-size: 1vw;
+    color: rgb(36, 109, 165);
+    padding: 12px 35px
+    
+    
+}
+.card-size{
+    /* background-color: aliceblue; */
+    width: 24%;
+    height: 67vh;
+border: 2px solid transparent;
+background-color: aliceblue;
+}
+.card-image{
+    /* padding: 0px 0px 0px 76px; */
+    width: 21vw;
+    height: 44vh;
+    border: 4px solid transparent;
+
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.deal-img{
+    /* height: 78%;
+    width: 62%; */
+
+    padding: 0px 0px 0px 12px;
+    height: 110px;
+    width: 86%;
+    box-sizing: border-box;
+}
+
+.collection{
+    display: flex;
+    justify-content: space-evenly;
+}
+.signin{
+    width: 100%;
+    height: 22%;
+    text-align: center;
+
+    padding: 1% 0%;
+}
+.btn{
+    width: 85%;
+    border-radius: 7px;
+    background-color: rgb(193, 183, 36);
+    height: 27%;
+    margin: 5%;
+    border: 2px solid transparent;
+}
+.sin-img{
+  
+height: 51%;
+    width: 100%;
+    border: 4px solid transparent;
+}
+.sign-image{
+    height: 100%;
+}
+.card2{
+    padding: 0% 0px 2% 0%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.rate{
+    font-size: 13px;
+    text-align: center;
+}
+.dinning{
+    height: 5;
+}
+.seemore2{
+    font-size: 16px;
+    color: rgb(36, 109, 165);
+    padding: 2px 35px;
+    
+    
+}
+.listing{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list{
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+    vertical-align: middle;
+}
+.productlist2{
+    margin: 68px 0px;
+}
+.list-item{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.toy-item{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.toy-img{
+    width: 250px;
+    height: 262px;
+    /* height: 258px;  */
+    padding: 0px 0px 0px 5px;
+    background-color: aliceblue;
+}
+.arrival-toys{
+    /* background-color: aqua; */
+width: 100%;
+height: 53%;
+margin: 0px 0px 30px 0px;
+}
+.had{
+    font-weight: bolder;
+    font-size: 111%;
+    padding: 9px 0px 9px 9px;
+}
+.toys{
+    border: 2px solid transparent;
+    /* width: 100%; */
+    /* background-color: aliceblue; */
+}
+.toy{
+    background-color: aliceblue;
+    width: 100%;   
+}
+.last{
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px ;
+    width: 100%;
+    height: 17%;
+    /* background-color: antiquewhite; */
+}
+.in{
+position: absolute;
+left: 40%;
+padding: 15px 0px ;
+
+}
+.personalize{
+    padding: 15px 0px 0px 0px ;
+}
+.sign-btn{
+    width: 107%;
+    height: 28px;
+    background-color: rgb(225, 191, 36);
+    border-radius: 7px;
+}
+.start{
+    font-size: 12px;
+}
+.start1{
+    font-size: 12px;
+    padding: 0px 0px 0px 40px;
+    
+}
+.footer{
+    height: 500px;
+    background-color: rgba(17, 16, 16, 0.587);
+}
+.back-top{
+    background-color: #373b3b;
+    height: 50px;
+    width: 100%;
+}
+.back{
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 0px 0px 0px ;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 55px 0px 0px 6px;
+}
+.detail{
+    font-size: 16px;
+    color: aliceblue;
+    padding:8px 0px 8px 0px  ;
+}
+.detail-hading{
+    font-size: 25px;
+}
+/* to make a responsive */
+@media(min-width:0px)and (max-width:1090px){
+    /* navigation bar responsive */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+    width: 100%;
+}
+
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-wrap: wrap-reverse; */
+    }
+    .ops{
+        display:flex ;
+        justify-content: space-evenly;
+
+    }
+    /* .cards{
+        display: flex;
+justify-content: space-evenly;
+        flex-wrap: wrap-reverse;
+    } */
+    p{
+        font-size: 62%;
+    }
+    .navaddress{
+
+    }
+    .nav-search{
+
+    }
+    .rate{
+        font-size: 10%
+    }
+    .card-section{
+width: 100%;
+    }
+    .pannal{
+        width: 100%;
+    }
+    card-section{
+        width: 100%;
+    
+    }
+    .herosection{
+        width: 100%;
+        background-size: contain;
+    }
+    .sin-img{
+        height: 12vh;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .listing{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .card-image{
+        width: 18vw;
+    height: 13vh;
+    }
+    .deal-img{
+        width: 12vw;
+        height: 6vh;
+    }
+    .handing{
+        font-size: 26%;
+    }
+    .productlist2  {
+        width: 100%;
+    }
+    .list{
+        width: 100%;
+    }
+    .card-size{
+        height: 100%;
+    }
+    .collection{
+        height: 130px;
+    }
+    .deal{
+        height: 60px;
+    }
+    .row2{
+        height: 90px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .info{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 50px 0px 50px; 
+    }
+    .detail{
+        font-size: 54%;
+        padding : 2px 0px 6px 0px;
+    }
+    .toy-img{
+        background-size: cover;
+    }
+    .img{
+     padding: 0px 10px ;
+        height: 40%;
+    }
+.toy-img{
+    height: 15vh;
+    width: 100%;
+}
+.toy-item{
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    justify-content: space-evenly;
+    
+
+    width: 100%;
+    box-sizing: border-box;
+}
+.arrival-toys{
+    height: 34vh;
+}
+.in{
+    position: absolute;
+    left: 30%;
+    /* padding: 15px 0px ; */
+    
+    }
+    .detail-hading{
+        font-size: 2vh;
+    }
+    .list-item {
+        font-size: 112%;
+        font-weight: bolder;
+    }
+    .toy{
+        /* width: 10vh; */
+        width: 23vw;
+    height: 16vh;
+    }
+
+    .productlist2{
+        margin: 0vh;
+    }
+
+    .toy-item{
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+    .img{
+        padding: 10px 10px;
+        height: 15vh;
+        width: 100%;
+    }
+}
+
+
+

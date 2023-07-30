@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>java script topics</title>
+    <!-- <script src="/Javascript/practiceset.js"></script> -->
+    <script>
+      let time;
+      let date ;
+    let a ; 
+      setInterval(() => {
+        time = new Date();
+        date =time.toLocaleDateString();
+     a=  time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+        document.getElementById('time-date').innerHTML =  a  + "  on  " +  date;
+
+    }, 1000);
+      </script>
+    <style>
+      .container {
+        border: 2px solid grey;
+    margin: 20px 0px ; 
+    }
+     span{
+        border: 2px solid rgb(202, 109, 42);
+     }
+      .clock {
+        border: 2px solid darkgray;
+        /* background-color: antiquewhite; */
+        background-color: thistle;
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        background-color: wheat;
+        align-items: center;
+      }
+      nav{
+        display: flex;
+        height: 12vh;
+        justify-content: center;
+        padding: 0px 20px ;
+        align-items: center;
+      }
+      li{
+        list-style: none;
+        text-decoration: none;
+        padding: 0px  12px ;
+      }
+      a{
+        text-decoration: none;
+      }
+ h1{
+    padding: 0px 30px ;
+ }
+      .para{
+        border: 2px solid darkgrey;
+        background-color: thistle;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Help</a></li>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search here " />
+        <input type="button" value="Search" />
+      </div>
+    </header>
+    <div class="container">
+      <h1>Current Time is : <span id="time-date"></span></h1>
+      <div class="clock">
+        <p>
+          “Someday” is a disease that will take your dreams to the grave with
+          you.” Timothy Ferriss
+        </p>
+      </div>
+      <p class = "para ">
+        This famous line holds a very true sentiment. Within “the grind” culture
+        today, we tend to think that whatever doesn’t make us money or is an
+        investment in the future is a waste of time. Instead, we should realize
+        that so long as we enjoy an activity, the amount of time spent on it
+        doesn’t matter.
+      </p>
+    </div>
+    
+  </body>
+</html>
